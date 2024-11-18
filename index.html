@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magical Chatbot</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Dialogflow Embed Code -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="Magical Chatbot"
+    agent-id="willy-wpko"  
+    language-code="en"
+  ></df-messenger>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Magical Chatbot</h1>
+  </header>
+  <main class="chat-container">
+    <div id="chat-box">
+      <!-- Chat messages will be displayed here -->
+    </div>
+    <input type="text" id="chat-input" class="chat-input" placeholder="Type your message...">
+    <button id="send-button" class="send-button">Send</button>
+  </main>
+  <footer>
+    <p>© 2023 Magical Chatbot. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

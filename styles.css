@@ -1,0 +1,70 @@
+body {
+    background-color: #1a1a2e;
+    font-family: 'Garamond', serif;
+    color: #ffffff;
+    background: url('assets/images/floating_candles.gif') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #d4af37;
+  }
+  
+  h1 {
+    font-family: 'Magical Font', serif;
+    font-size: 3em;
+    color: #d4af37;
+  }
+  
+  .chat-container {
+    width: 80%;
+    margin: 0 auto;
+    background: url('1.jpg') no-repeat center center;
+    background-size: cover;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .chat-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    background-color: #3e3e5e;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d4af37;
+    color: #1a1a2e;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #e3bc56;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 2px solid #d4af37;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
